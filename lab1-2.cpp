@@ -226,9 +226,9 @@ int main()
     CodeTest *t = new CodeTest();
     int level;
     char filename[100];
-    cout<<"path£º";
+    cout<<"pathÂ£Âº";
     gets(filename);
-    cout<<"level£º";
+    cout<<"levelÂ£Âº";
     cin>>level;
     if ((pfin=fopen(filename,"r"))==NULL)
     {
